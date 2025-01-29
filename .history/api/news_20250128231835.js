@@ -10,7 +10,7 @@ const BASE_URL = 'http://www.osu.edu.et/';
 
 // Configure CORS to allow requests from localhost:5173
 app.use(cors({
-  origin: ['http://localhost:5173', 'https://osu-hub.vercel.app']
+  origin: 'http://localhost:5173'
 }));
 
 const fetchNewsAndEvents = async () => {
